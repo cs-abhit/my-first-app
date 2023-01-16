@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./navcom.component.css']
 })
 export class NavcomComponent {
-
+  slogan : string = 'i am abhit.'
 }

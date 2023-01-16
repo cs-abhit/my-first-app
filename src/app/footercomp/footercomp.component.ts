@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./footercomp.component.css']
 })
 export class FootercompComponent {
-
+  source : String = "/assets/483072.jpg"
+  display : boolean= false
+  
+  closePic(){
+    this.display = true
+  }
 }
