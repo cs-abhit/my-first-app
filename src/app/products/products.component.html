@@ -1,0 +1,12 @@
+<div *ngFor="let number of [1,3,4]">
+    <p>i have {{number}} car</p>
+</div>
+
+
+<div *ngFor="let p of product ; let i = index"  [ngStyle]="{backgroundColor: p.clever === 'yes' ? 'gray' : 'pink'} ">
+    <div>{{i}}</div>
+    <div><b> name of owner : </b> {{p.name}}</div>
+    <div><b>where he live ?? </b>{{p.address}}</div>
+    <div [ngStyle]="{color: p.clever === 'yes' ? 'Green' : 'Red'} "><b>clever : </b>{{p.clever}}</div>
+    
+</div>

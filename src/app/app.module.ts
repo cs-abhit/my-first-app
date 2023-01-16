@@ -7,6 +7,9 @@ import { ComfirstComponent } from './comfirst/comfirst.component';
 import { NavcomComponent } from './navcom/navcom.component';
 import { FootercompComponent } from './footercomp/footercomp.component';
 import { SearchComponent } from './search/search.component';
+import { FormsModule } from '@angular/forms';
+import { ProductsComponent } from './products/products.component';
+
 
 @NgModule({
   declarations: [
@@ -14,11 +17,13 @@ import { SearchComponent } from './search/search.component';
     ComfirstComponent,
     NavcomComponent,
     FootercompComponent,
-    SearchComponent
-  ],
+    SearchComponent,
+    ProductsComponent],
+    
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
