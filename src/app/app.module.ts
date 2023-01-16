@@ -9,6 +9,7 @@ import { FootercompComponent } from './footercomp/footercomp.component';
 import { SearchComponent } from './search/search.component';
 import { FormsModule } from '@angular/forms';
 import { ProductsComponent } from './products/products.component';
+import { SwitchComponent } from './switch/switch.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { ProductsComponent } from './products/products.component';
     NavcomComponent,
     FootercompComponent,
     SearchComponent,
-    ProductsComponent],
+    ProductsComponent,
+    SwitchComponent],
     
   imports: [
     BrowserModule,
