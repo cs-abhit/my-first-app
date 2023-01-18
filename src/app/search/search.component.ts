@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 })
 export class SearchComponent {
 
-  searchValue : string =''
+  searchValue : string ='iphone'
   changeValue(eventData : Event){
     console.log((<HTMLInputElement>eventData.target).value)
     this.searchValue = ((<HTMLInputElement>eventData.target).value)

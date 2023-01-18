@@ -1,6 +1,6 @@
 <div class="div" [ngClass]="{changebg: searchValue != ''}">
     <button>search</button>
-    <!-- <input type="text" (input)="changeValue($event)">   one way data binding-->  
-     <input type="text" [(ngModel)]="searchValue">   <!--two way data binding -->
+    <!-- <input type u="text" (input)="changeValue($event)">   one way data binding   -->
+      <input type="text" [(ngModel)]="searchValue">  <!-- two way data binding -->
     <span *ngIf=" searchValue != '' ">your search vlaue "{{searchValue}}"</span>
 </div>
